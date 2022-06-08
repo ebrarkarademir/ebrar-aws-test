@@ -3,7 +3,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello_world():
-    return 'Hi this is my first change on the deployed project.'
+    return 'Second change from different computer.'
 
 if __name__ == '__main__':
     application.run()
